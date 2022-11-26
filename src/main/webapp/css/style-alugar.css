@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+header {
+    background-color: blueviolet;
+    /* box-shadow: 0 4px 6px 1px rgb(90, 90, 90); */
+}
+a { color: inherit; text-decoration:none; } 
+a:hover { color: inherit; }
+
+.container-header {
+    height: 90px;
+    width: 80rem !important;
+    margin:auto !important;
+    background-color: blueviolet !important;
+}
+
+.container-filtros {
+    width: 100rem;
+    margin:auto;
+}
+.list-cars {
+    width: 55rem;
+    margin:auto;
+    
+}
+.title-list-cars {
+    background-color: blueviolet;
+    padding:10px;
+    color:white;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.carFilter:hover {
+    border:1px solid blueviolet;
+    
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+.btn-cancelar{
+    margin-right: 10px;
+}
+
+.formulario {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.corPadraoTxt{
+    color: blueviolet;
+}
+
+.lines{
+    border-bottom: 1px solid rgb(221, 221, 221);
+}

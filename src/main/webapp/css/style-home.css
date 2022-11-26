@@ -1,0 +1,59 @@
+body {
+    background-color:#fafbfc;
+}
+header {
+    background-color: blueviolet;
+}
+footer {
+    background-color: blueviolet
+}
+.container-header {
+    height: 90px;
+    width: 80rem !important;
+    margin:auto !important;
+    background-color: blueviolet !important;
+}
+.container-body .navbar {
+    height: 70px;
+    width: 80rem !important;
+    margin:auto !important;
+}
+.filtroCars {
+    height: 200px;
+    width: 100%;
+    background-color:rgba(0,0,0,0.3);
+    z-index: 1;
+    position: absolute;
+}
+.filtroCars form {
+    width: 80rem !important;
+    margin:auto !important;
+    color: white;
+}
+.carousel-inner img {
+    height:700px;
+    width:100%;
+}
+.container-carrosDestaques {
+    background-color:#fafbfc;
+    width: 80rem;
+    margin:auto;
+}
+.container-agenciaDestaque {
+    background-color:#fafbfc;
+    width: 80rem;
+    margin:auto;
+}
+
+.lupa{
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+#inputEmail4{
+    display: flex;
+    align-items: center;
+}

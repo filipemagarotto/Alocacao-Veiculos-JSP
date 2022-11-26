@@ -1,0 +1,73 @@
+header {
+    background-color: blueviolet;
+    /* box-shadow: 0 4px 6px 1px rgb(90, 90, 90); */
+}
+a { color: inherit; text-decoration:none; } 
+a:hover { color: inherit; }
+
+.container-header {
+    height: 90px;
+    width: 80rem !important;
+    margin:auto !important;
+    background-color: blueviolet !important;
+}
+body {
+    background-color: blueviolet;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background-color: blueviolet;
+    box-shadow: none;
+    border: none;
+    color:white;
+}
+
+.profile-button:hover {
+    background-color: blueviolet;
+}
+
+.profile-button:focus {
+    background-color: blueviolet;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background-color: blueviolet;
+    box-shadow: none
+}
+
+.back:hover {
+    color: blueviolet;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px blueviolet
+}
+
+.carrosDestaques{
+    margin-top: 23%;
+    padding: 20px 60px;
+}
+
+.centralizar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
